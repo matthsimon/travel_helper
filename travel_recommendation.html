@@ -3,20 +3,26 @@
 
 <head>
     <title>The Travel Helper</title>
+    <link rel="stylesheet" href="travel_recommendation.css"/>
 </head>
 
 <body>
     <header>
-        <img id="logo" src="img/logo.png"/>
         <nav>
-            <ul>
+            <div id="logo_area">
+                <img id="logo" src="img/logo.png"/>
+                <span>The Travel Helper</span>
+            </div>
+            <ul id="menu">
                 <li><a href="">Home</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contact Us</a></li>
             </ul>
-            <input id="search_bar" type="text" placeholder="Enter a destination or keyword" />
-            <button id="search_button">Search</button>
-            <button id="clear_button">Clear</button>
+            <div id="search_form">
+                <input id="search_bar" type="text" placeholder="Enter a destination or keyword" />
+                <button id="search_button">Search</button>
+                <button id="clear_button">Clear</button>
+            </div>
         </nav>
     </header>
 </body>
