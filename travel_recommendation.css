@@ -10,6 +10,7 @@ nav {
 nav > ul#menu {
     list-style-type: none;
     display: flex;
+    flex-grow: 0;
 }
 
 nav ul#menu a {
@@ -33,19 +34,50 @@ nav #logo {
     height: 50px;
 }
 
+nav #search_form {
+    width: 350px;
+}
+
 #search_bar {
     width: 200px;
 }
 
 main {
     color: black;
+    font-size: medium;
     background-color: rgba(255, 255, 255, 0.5);
-    font-weight: bolder;
     margin: 10px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     max-width: 80ch;
+}
+
+#team > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#team .employee {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(65, 63, 190, 0.75);
+    color: white;
+    text-align: center;
+}
+
+#team .employee .name {
+    font-weight: bolder;
+    font-size: large;
+}
+
+#team .employee .role {
+    font-weight: bold;
+}
+
+#team .employee .description {
+    font-size: small;
 }
 
 body {
