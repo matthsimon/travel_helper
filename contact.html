@@ -20,21 +20,17 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-            <div id="search_form">
-                <input id="search_bar" type="text" placeholder="Enter a destination or keyword" />
-                <button id="search_button">Search</button>
-                <button id="clear_button">Clear</button>
-            </div>
+            <div id="search_form"></div>
         </nav>
     </header>
     <main>
-        <h1>Your Journey, Our Help - Adventure Awaits!</h1>
-        <p>Welcome to Travel Helper, where your travel dreams become a reality
-        with ease and expertise. At Travel Helper, we specialize in crafting unforgettable
-        experiences tailored just for you. Whether you're planning a relaxing getaway, an adventurous
-        expedition, or a cultural exploration, our dedicated team ensures every detail is meticulously handled.
-        Let us take the stress out of travel planning so you can focus on creating memories that will last a lifetime.
-        With Travel Helper, your perfect journey is just a click away.</p>
+        <h1>Contact Us</h1>
+        <form id="contact_form">
+            <label for="name">Name:</label><input id="name" type="text" placeholder="Enter your name" required />
+            <label for="email">Email:</label><input id="email" type="email" placeholder="Enter your email" required />
+            <label for="message">Message:</label><textarea id="message" placeholder="Enter your message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </main>
     <aside>
         <a href="#" class="fa fa-twitter"></a>

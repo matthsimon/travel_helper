@@ -80,6 +80,15 @@ main {
     font-size: small;
 }
 
+main > form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+}
+
 body {
     background-image: url("img/background.png");
 }
