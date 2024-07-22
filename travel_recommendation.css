@@ -49,8 +49,24 @@ main {
     margin: 10px;
     padding: 20px;
     display: flex;
+    flex-direction: row;
+}
+
+#introduction {
     flex-direction: column;
     max-width: 80ch;
+}
+
+#recommendation_list {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#recommendation_list .recommendation {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 #team > ul {

@@ -22,19 +22,22 @@
             </ul>
             <div id="search_form">
                 <input id="search_bar" type="text" placeholder="Enter a destination or keyword" />
-                <button id="search_button">Search</button>
-                <button id="clear_button">Clear</button>
+                <button id="search_button" onclick="onSearch()">Search</button>
+                <button id="clear_button" onclick="onClear()">Clear</button>
             </div>
         </nav>
     </header>
     <main>
-        <h1>Your Journey, Our Help - Adventure Awaits!</h1>
-        <p>Welcome to Travel Helper, where your travel dreams become a reality
-        with ease and expertise. At Travel Helper, we specialize in crafting unforgettable
-        experiences tailored just for you. Whether you're planning a relaxing getaway, an adventurous
-        expedition, or a cultural exploration, our dedicated team ensures every detail is meticulously handled.
-        Let us take the stress out of travel planning so you can focus on creating memories that will last a lifetime.
-        With Travel Helper, your perfect journey is just a click away.</p>
+        <div id="introduction">
+            <h1>Your Journey, Our Help - Adventure Awaits!</h1>
+            <p>Welcome to Travel Helper, where your travel dreams become a reality
+            with ease and expertise. At Travel Helper, we specialize in crafting unforgettable
+            experiences tailored just for you. Whether you're planning a relaxing getaway, an adventurous
+            expedition, or a cultural exploration, our dedicated team ensures every detail is meticulously handled.
+            Let us take the stress out of travel planning so you can focus on creating memories that will last a lifetime.
+            With Travel Helper, your perfect journey is just a click away.</p>
+        </div>
+        <div id="recommendation_list"></div>
     </main>
     <aside>
         <a href="#" class="fa fa-twitter"></a>
@@ -43,5 +46,6 @@
         <a href="#" class="fa fa-youtube"></a>
     </aside>
 </body>
+<script src="travel_recommendation.js"></script>
 
 </html>
